@@ -61,8 +61,8 @@ numero_03 = "0o1234"
 numero_04 = 654
 
 # COMPLETAR - INICIO
-resultado_resta = int(numero_01)-int(numero_02) - \
-    int(numero_03)-int(numero_04)
+resultado_resta = int(numero_01)-int(numero_02, base=16) - \
+    int(numero_03, base=8)-int(numero_04)
 # COMPLETAR - FIN
 
 assert resultado_resta == -456350
