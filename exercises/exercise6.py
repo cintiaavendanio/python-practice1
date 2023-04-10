@@ -6,7 +6,12 @@ Restricción: Utilizar el método append
 """
 
 # COMPLETAR - INICIO
-lista_01 = 
+lista_01 = []
+lista_1.append(1)
+lista_1.append(2)
+lista_1.append(3)
+lista_1.append(4)
+
 # COMPLETAR - FIN
 
 assert len(lista_01) == 4
