@@ -63,7 +63,9 @@ variable_05 = 100
 
 # COMPLETAR - INICIO
 # preguntar!!!!!!!!!!!!!!!
-resultado = variable_03 == variable_01 or not variable_02 or variable_03 or variable_04 or variable_05
+resultado = variable_03 or (
+    variable_02 or not variable_01 or variable_04 or variable_05)
+# resultado = variable_03 == variable_01 or not variable_02 or variable_03 or variable_04 or variable_05
 # COMPLETAR - FIN
 
 assert resultado == 80

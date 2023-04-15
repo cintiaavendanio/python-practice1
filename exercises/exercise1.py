@@ -36,6 +36,7 @@ lado_cuadrado = 5
 
 # COMPLETAR - INICIO
 area_cuadrado = pow(lado_cuadrado, 2)
+# def parametro: una variable con un valor asignado
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
