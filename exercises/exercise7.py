@@ -73,7 +73,7 @@ lista = ["esta", "mañana", "sali", "a", "correr"]
 
 # COMPLETAR - INICIO
 string_concatenado = f'{lista[0]} {lista[1]} {lista[2]} {lista[3]} {lista[4]}'
-print(string_concatenado)
+# print(string_concatenado)
 # COMPLETAR - FIN
 
 assert string_concatenado == "esta mañana sali a correr"
