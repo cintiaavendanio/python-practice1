@@ -18,7 +18,7 @@ assert tupla == ("casa", "perro", "pato", "gato")
 
 
 """
-A partir de ls siguiente tupla instanciar una lista que contenga todos sus valores
+A partir de la siguiente tupla instanciar una lista que contenga todos sus valores
 y en el mismo orden.
 """
 
@@ -26,12 +26,16 @@ tupla = "casa", "perro", "pato", "gato", "tenedor"
 
 # COMPLETAR - INICIO
 lista = []
-lista.append(tupla[0])
-lista.append(tupla[1])
-lista.append(tupla[2])
-lista.append(tupla[3])
-lista.append(tupla[4])
-print(lista)
+# lista.append(tupla[0])
+# lista.append(tupla[1])
+# lista.append(tupla[2])
+# lista.append(tupla[3])
+# lista.append(tupla[4])
+
+for item in tupla:
+    lista.append(item)
+
+#print(lista)
 # COMPLETAR - FIN
 
 assert lista == ["casa", "perro", "pato", "gato", "tenedor"]
@@ -72,7 +76,8 @@ Restricción: Utilizar f-Strings.
 lista = ["esta", "mañana", "sali", "a", "correr"]
 
 # COMPLETAR - INICIO
-string_concatenado = f'{lista[0]} {lista[1]} {lista[2]} {lista[3]} {lista[4]}'
+a,b,c,d,e = lista
+string_concatenado = f'{a} {b} {c} {d} {e}'
 # print(string_concatenado)
 # COMPLETAR - FIN
 
